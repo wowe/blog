@@ -15,3 +15,8 @@ Learning Ruby on Rails http://guides.rubyonrails.org/getting_started.html
 2.  Learning the Create Controller in Rails
     a.  create - save record into database using the Create method
     b.  all method of controller's posts are saved in app/controllers/posts_controller.rb
+
+3.  Learning the Read method's Rails
+    a.  there are 2 function:
+        1.  Display 1 record of database(/posts/id) - via show method
+        2.  Display all records of database - /posts - via index method
