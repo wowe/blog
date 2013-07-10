@@ -21,4 +21,10 @@ Learning Ruby on Rails http://guides.rubyonrails.org/getting_started.html
         1.  Display 1 record of database(/posts/id) - via show method
         2.  Display all records of database - /posts - via index method
 
-4.
+4.  Learning finish:
+    a.  Show
+    b.  Create
+    c.  Update - Edit
+    d.  Delete - Destroy
+
+5.  Every method should be passed with post variable - @post(single)/plural
