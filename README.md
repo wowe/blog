@@ -20,3 +20,5 @@ Learning Ruby on Rails http://guides.rubyonrails.org/getting_started.html
     a.  there are 2 function:
         1.  Display 1 record of database(/posts/id) - via show method
         2.  Display all records of database - /posts - via index method
+
+4.
