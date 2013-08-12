@@ -123,3 +123,20 @@ Using turbolinks (1.3.0)
 Using uglifier (2.1.2)
 Your bundle is complete!
 Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+[root@BKDB_190 blog]# rails g controller Say
+      create  app/controllers/say_controller.rb
+      invoke  erb
+      create    app/views/say
+      invoke  test_unit
+      create    test/controllers/say_controller_test.rb
+      invoke  helper
+      create    app/helpers/say_helper.rb
+      invoke    test_unit
+      create      test/helpers/say_helper_test.rb
+      invoke  assets
+      invoke    coffee
+      create      app/assets/javascripts/say.js.coffee
+      invoke    scss
+      create      app/assets/stylesheets/say.css.scss
+
