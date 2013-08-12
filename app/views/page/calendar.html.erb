@@ -1,2 +1,13 @@
+<%= @my_time %><br/>
+<%= @my_name %><br/>
+<%= @year %><br/>
+<%= @month %><br/>
+
+<ol>
+    <% @product.each do |product| %>
+        <li><%= product %></li>
+    <% end %>
+</ol>
+<%= page_calendar_path %>
 <h1>Page#calendar</h1>
 <p>Find me in app/views/page/calendar.html.erb</p>
