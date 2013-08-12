@@ -1,4 +1,14 @@
 Blog::Application.routes.draw do
+  get "page/home"
+  get "page/about_us"
+  get "page/recipes"
+  get "page/product"
+  get "page/articles"
+  get "page/calendar"
+  get "page/blog"
+  get "page/login"
+    get 'say' => 'say#index'
+    get 'say/hello' => 'say#hello'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

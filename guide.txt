@@ -1,0 +1,3 @@
+1.  create a controller : rails g controller Say
+2.  create a route for Say controller: vim config/routes.rb with content: get 'say/...'
+3.  create a erb file for a method in Say controller
