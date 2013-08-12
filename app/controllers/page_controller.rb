@@ -3,6 +3,8 @@ class PageController < ApplicationController
   end
 
   def about_us
+      @name = params[:name]
+      @email = params[:email]
   end
 
   def recipes
